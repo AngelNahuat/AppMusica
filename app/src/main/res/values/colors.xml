@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="morado">#343665</color>
+    <color name="morado_medio">#666598</color>
+    <color name="morado_suave">#F0EDFF</color>
+    <color name="variacion_morado">#8186F1</color>
+    <color name="rosa">#80477C</color>
+    <color name="rosa_medio">#C55C7C</color>
+    <color name="rosa_suave">#F5836E</color>
+    <color name="rosa_variacion">#FFBA60</color>
+    <color name="durazno">#FFFADE</color>
+
+    <color name="onPrimary">#030104</color>
+
+    <color name="black">#030104</color>
+    <color name="white">#f5f5f5</color>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:outlineSpotShadowColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#FFE5DA"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/imagen"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/gradientlist"
+                app:srcCompat="@drawable/beatles"></ImageView>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Textview"
+            android:fontFamily="@font/poppin_light"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:tint="@color/black"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/flecha"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="right"
+            android:src="@drawable/flecha"></ImageView>
+
+
+    </LinearLayout>
+</RelativeLayout>

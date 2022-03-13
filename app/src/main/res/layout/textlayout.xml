@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#EDE9D0">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/abbey" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+
+            android:text="TituloAlbum" />
+
+        <TextView
+            android:textDirection="firstStrong"
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="15dp"
+android:textColor="@color/black"
+            android:lineSpacingExtra="5dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus vulputate eros id semper. Donec a laoreet." />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="30dp"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="10dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel lorem viverra mi hendrerit semper quis sit amet tortor. Donec dapibus eleifend arcu eu tincidunt. Duis malesuada auctor tortor et suscipit. Maecenas rutrum sollicitudin tincidunt. Nam in convallis lacus. Maecenas auctor libero quis faucibus condimentum. Nunc suscipit aliquam orci. In nec mauris dictum, bibendum massa non, feugiat turpis. Sed sit amet justo eros. Cras eros orci, pellentesque nec egestas id, blandit sed ligula. Sed nisi diam, egestas sit amet nulla at, mattis mattis arcu."
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
